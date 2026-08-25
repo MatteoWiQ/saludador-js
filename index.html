@@ -3,14 +3,53 @@
   <head>
     <title>Saludar</title>
     <style>
-      *{
+      * {
         box-sizing: border-box;
       }
-      #saludar-form{
+
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      #saludar-form {
         display: flex;
         flex-direction: column;
-        width: 300px;
-        gap: 10px;
+        width: min(100%, 320px);
+        gap: 12px;
+        margin: 0 auto;
+        padding: 16px;
+        border: 1px solid ;
+        border-radius: 8px;
+      }
+
+      #saludar-form input,
+      #saludar-form select {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 1rem;
+        border: 1px solid;
+        border-radius: 6px;
+      }
+
+      
+
+      @media (max-width: 600px) {
+        body {
+          padding: 12px;
+        }
+
+        #saludar-form {
+          width: 100%;
+          max-width: 100%;
+          padding: 12px;
+        }
+
+        #saludar-form input,
+        #saludar-form select {
+          width: 100%;
+        }
       }
     </style>
   </head>
