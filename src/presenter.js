@@ -19,12 +19,15 @@ form.addEventListener("submit", (event) => {
   var edadValue = Number.parseInt(edad.value);
   var idiomaValue = idioma.value;
 
+
+
+
   if(nombreValue == ""){
     nombreValue = "vistante"
   }
   
   if(idiomaValue == "es"){
-    div.innerHTML = "<p>" + saludar(nombreValue, generoValue, horaActual, edadValue) +  "</p>";
+    div.innerHTML = "<p>" + saludar(nombreValue, generoValue, horaActual, edadValue)  +  "</p>";
   }else{
     div.innerHTML = "<p>" + saludarEn(nombreValue, generoValue, horaActual, edadValue) + "</p>";
   }

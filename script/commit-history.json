@@ -209,17 +209,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d1cba700e95def9c2af21d6525fc8b4d8a33e13",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T13:22:17.000Z",
       "message": "feat: Mostrar saludo a visitante sin nombre:",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/7d1cba700e95def9c2af21d6525fc8b4d8a33e13"
     },
     "stats": {
       "total": 21,
       "additions": 16,
       "deletions": 5,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T13:41:57.000Z",
+      "message": "feat: Validacion de la edad",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 31,
+      "deletions": 15,
       "date": "2026-08-25"
     },
     "coverage": 0,
