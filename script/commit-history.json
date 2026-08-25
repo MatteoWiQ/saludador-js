@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "b683c4674a011c404f8fe5c62c8801d2e067bc33",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T02:17:41.000Z",
       "message": "feat: Implementacion del saludo con 'hola'",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/b683c4674a011c404f8fe5c62c8801d2e067bc33"
     },
     "stats": {
       "total": 25,
       "additions": 6,
       "deletions": 19,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T02:23:57.000Z",
+      "message": "feat: Implementacion del saludo con el nombre del usuario en un campo de texto",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
       "date": "2026-08-25"
     },
     "coverage": 0,
