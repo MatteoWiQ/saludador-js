@@ -3,11 +3,14 @@ const nombre = document.querySelector("#saludar-nombre")
 const form = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
 
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  let fechaActual = new Date();
+  let horaActual = fechaActual.getHours();
   //const secondNumber = Number.parseInt(second.value);
   const nombreValue = nombre.value;
-
-  div.innerHTML = "<p>" + saludar(nombreValue) + "</p>";
+  
+  div.innerHTML = "<p>" + saludar(nombreValue, horaActual) +  "</p>";
 });
