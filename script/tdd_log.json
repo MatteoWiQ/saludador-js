@@ -42,9 +42,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7abf78e289650f34598cbf96cfb861a53fa64794",
     "commitName": "Fix: Archivo 'test.js' eliminado para evitar errores desde la consola de desarrollador",
     "commitTimestamp": 1787626399681,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Saludo dependiendo de la edad",
+    "commitTimestamp": 1787626802728,
+    "testId": 8
   }
 ]
