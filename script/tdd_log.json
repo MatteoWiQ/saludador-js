@@ -30,9 +30,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58ad454210518ecc5d89f1e79d32c4a06ba0a44b",
     "commitName": "fix: Espaciado aumentado entre campos de texto",
     "commitTimestamp": 1787625524877,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Tipo de saludo dependiendo del genero",
+    "commitTimestamp": 1787626140175,
+    "testId": 6
   }
 ]

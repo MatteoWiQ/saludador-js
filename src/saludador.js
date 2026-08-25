@@ -1,11 +1,21 @@
-function saludar(nombre, hora) {
+function saludar(nombre, genero, hora) {
+    saludo = saludarPorGenero(genero);
     if (hora < 12) {
-        return "Buenos días " + nombre;
+        saludo = saludo + " " + "buenos días " + nombre;
     } else if (hora < 18) {
-        return "Buenas tardes " + nombre;
+        saludo = saludo + " " + "buenas tardes " + nombre;
     } else {
-        return "Buenas noches " + nombre;
+        saludo = saludo + " " + "buenas noches " + nombre;
     }
-
+    return saludo;
 }
+
+function saludarPorGenero(genero){
+    if (genero == "masculino") {
+        return "Hola";
+    } else if (genero == "femenino") {
+        return "Holiiis";
+    }
+}
+
 export { saludar };

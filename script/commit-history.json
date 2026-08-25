@@ -95,17 +95,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "58ad454210518ecc5d89f1e79d32c4a06ba0a44b",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T02:38:44.000Z",
       "message": "fix: Espaciado aumentado entre campos de texto",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/58ad454210518ecc5d89f1e79d32c4a06ba0a44b"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T02:48:59.000Z",
+      "message": "feat: Tipo de saludo dependiendo del genero",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 22,
+      "deletions": 7,
       "date": "2026-08-25"
     },
     "coverage": 0,
