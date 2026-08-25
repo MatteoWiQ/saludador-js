@@ -13,10 +13,16 @@ form.addEventListener("submit", (event) => {
   let fechaActual = new Date();
   let horaActual = fechaActual.getHours();
   //const secondNumber = Number.parseInt(second.value);
-  const nombreValue = nombre.value;
-  const generoValue = opcionGenero.value;
-  const edadValue = Number.parseInt(edad.value);
-  const idiomaValue = idioma.value;
+  
+  var nombreValue = nombre.value;
+  var generoValue = opcionGenero.value;
+  var edadValue = Number.parseInt(edad.value);
+  var idiomaValue = idioma.value;
+
+  if(nombreValue == ""){
+    nombreValue = "vistante"
+  }
+  
   if(idiomaValue == "es"){
     div.innerHTML = "<p>" + saludar(nombreValue, generoValue, horaActual, edadValue) +  "</p>";
   }else{
