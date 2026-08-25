@@ -2,11 +2,22 @@
 <html xml:lang="es">
   <head>
     <title>Saludar</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      #saludar-form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+    </style>
   </head>
   <body>
     <h1>Saludar</h1>
     <form id="saludar-form">
       <input type="text" name="Ingresa tu nombre" id="saludar-nombre" placeholder="Ingresa tu nombre" />
+      <input type="number" name="Ingresa tu edad" id="saludar-edad" placeholder="Ingresa tu edad" />
       <input type="submit" value="Saludar" id="saludar-button" />
     </form>
     <div id="resultado-div"></div>

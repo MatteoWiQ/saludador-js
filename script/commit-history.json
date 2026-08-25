@@ -57,17 +57,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "0e4d34b517295fe1d76dd42839774fb4c0b41e0b",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T02:34:00.000Z",
       "message": "fix: Campos de titulos del saludador",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/0e4d34b517295fe1d76dd42839774fb4c0b41e0b"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T02:37:38.000Z",
+      "message": "style: Formulario vertical",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
       "date": "2026-08-25"
     },
     "coverage": 0,
