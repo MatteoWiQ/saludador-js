@@ -38,17 +38,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "94150286b3bb8bab9731a91442dc1187e5ce0ed5",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T02:31:51.000Z",
       "message": "feat: Agregar el saludo correspondiente a la hora actual",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/94150286b3bb8bab9731a91442dc1187e5ce0ed5"
     },
     "stats": {
       "total": 18,
       "additions": 14,
       "deletions": 4,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T02:34:00.000Z",
+      "message": "fix: Campos de titulos del saludador",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-08-25"
     },
     "coverage": 0,
