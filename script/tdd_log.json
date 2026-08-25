@@ -36,9 +36,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0e0635c92a1623c231b8f4d99d15ea20a714ac89",
     "commitName": "feat: Tipo de saludo dependiendo del genero",
     "commitTimestamp": 1787626140175,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Fix: Archivo 'test.js' eliminado para evitar errores desde la consola de desarrollador",
+    "commitTimestamp": 1787626399681,
+    "testId": 7
   }
 ]

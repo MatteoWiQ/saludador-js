@@ -114,17 +114,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "0e0635c92a1623c231b8f4d99d15ea20a714ac89",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-08-25T02:48:59.000Z",
       "message": "feat: Tipo de saludo dependiendo del genero",
-      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/0e0635c92a1623c231b8f4d99d15ea20a714ac89"
     },
     "stats": {
       "total": 29,
       "additions": 22,
       "deletions": 7,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-08-25T02:53:18.000Z",
+      "message": "Fix: Archivo 'test.js' eliminado para evitar errores desde la consola de desarrollador",
+      "url": "https://github.com/MatteoWiQ/saludador-js/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 0,
+      "deletions": 9,
       "date": "2026-08-25"
     },
     "coverage": 0,
